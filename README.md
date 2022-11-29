@@ -4,6 +4,8 @@
 
 Delayed start of applications.
 
+![Demo](media/demo.gif?raw=true "Demo")
+
 Most of the times you want to start some programs at start.
 But sometimes you just need to quickly start your pc and don't want to wait for all the programs to start.
 This application gives you a delay that you can either

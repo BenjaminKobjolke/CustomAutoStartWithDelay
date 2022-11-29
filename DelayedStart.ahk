@@ -11,7 +11,8 @@ SetWorkingDir %A_ScriptDir%
 
 seconds := 10
 x := 0
-Progress, b w200, Press ESC to cancel, Delayed autostart, Delayed autostart
+Progress, b w300, Press ESC to cancel, Delayed autostart, Delayed autostart
+Sleep, 15000
 settimer,progress, 1000
 GoSub, progress
 return
@@ -25,7 +26,8 @@ progress:
 
     if percent=100
     {
-		GoSub, Execute
+		ExitApp
+		;GoSub, Execute
     }
 return
 
