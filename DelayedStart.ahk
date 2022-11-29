@@ -26,8 +26,7 @@ progress:
 
     if percent=100
     {
-		ExitApp
-		;GoSub, Execute
+		GoSub, Execute
     }
 return
 
